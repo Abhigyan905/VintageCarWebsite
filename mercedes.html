@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes 540K - Vintage Car Collection</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f1e9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: #8b0000; /* Deep Red for Classic Look */
+            color: white;
+            text-align: center;
+            font-size: x-large;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #8b0000;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #8b0000;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #8b0000;
+            color: white;
+        }
+
+
+        /* Main Layout */
+        main {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Car Image */
+        .car-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Car Description */
+        .description {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Specifications */
+        .specs {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .specs h2 {
+            color: #8b0000;
+        }
+
+        .specs ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .specs ul li {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+
+        /* Buy Section */
+        .buy-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #d32f2f; /* Red for urgency */
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .buy-button:hover {
+            background-color: #b71c1c; /* Darker red on hover */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #8b0000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mercedes 540K</h1>
+        <p>"A pre-war masterpiece of elegance and speed."</p>
+    </header>
+    <nav>
+        <a href="mainpage.html">⬅ Back to Home</a>
+    </nav>
+
+    <main>
+        <img src="merd.jpg" alt="Mercedes 540K" class="car-image">
+
+        <div class="description">
+            <h2>About the Mercedes-Benz 540K</h2>
+            <p>The **Mercedes-Benz 540K** is one of the most elegant and powerful luxury cars of the 1930s.  
+            With its **5.4L supercharged inline-8 engine**, it was a symbol of wealth and performance,  
+            combining speed, luxury, and artistic design.</p>
+        </div>
+
+        <div class="specs">
+            <h2>Specifications:</h2>
+            <ul>
+                <li>🚗 **Engine:** 5.4L Supercharged Inline-8</li>
+                <li>⚡ **Horsepower:** 180 HP</li>
+                <li>🏎️ **Top Speed:** 170 km/h (106 mph)</li>
+                <li>📅 **Production:** 1936-1940</li>
+                <li>💰 **Original Price:** $10,000 (equivalent to $200,000+ today)</li>
+            </ul>
+        </div>
+
+        <section class="buy-section">
+            <h2>Interested in Buying?</h2>
+            <p>Click the button below to visit the official seller's page and purchase this classic car.</p>
+            <a href="https://www.classicdriver.com/en/cars/mercedes-benz/540-k" target="_blank" class="buy-button">Buy Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vintage Car Collection | Designed by Abhigyan</p>
+    </footer>
+
+</body>
+</html>

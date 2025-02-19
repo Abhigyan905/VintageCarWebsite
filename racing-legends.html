@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing Legends - Vintage Car Collection</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f1e9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #d71a28; /* Racing Red Theme */
+            color: white;
+            text-align: center;
+            font-family: "bold";
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #d71a28;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #d71a28;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #d71a28;
+            color: white;
+        }
+
+        /* Main Layout */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            flex: 1;
+        }
+
+        /* Car Grid */
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figure img {
+            width: 100%;
+            border-radius: 10px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        figcaption {
+            font-style: italic;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #d71a28;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Racing Legends</h1>
+        <p>Icons of speed, built to dominate</p>
+    </header>
+
+    <nav>
+        <a href="mainpage.html">⬅ Back to Home</a>
+    </nav>
+
+    <main>
+        <section>
+            <a href="ford.html">
+            <article>
+                <figure>
+                    <img src="320fdbac3874e796caa49185a898a47d.jpg" alt="Ford GT40">
+                    <figcaption>Ford GT40</figcaption>
+                </figure>
+                <p>"The legend that conquered Le Mans."</p>
+            </article>
+            </a>
+            <a href="maserati.html">
+            <article>
+                <figure>
+                    <img src="b8990c30759c66da966c10de82424806.jpg" alt="Maserati 250F">
+                    <figcaption>Maserati 250F</figcaption>
+                </figure>
+                <p>"A Formula 1 masterpiece of the 1950s."</p>
+            </article>
+            </a>
+            <a href="porse.html">
+            <article>
+                <figure>
+                    <img src="af2837d92b66ada1aacb7640267f6c0b.jpg" alt="Porsche Carrera RS">
+                    <figcaption>Porsche 904 Carrera GTS</figcaption>
+                </figure>
+                <p>"Precision, speed, and Porsche excellence."</p>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vintage Car Collection | Designed by Abhigyan</p>
+    </footer>
+
+</body>
+</html>

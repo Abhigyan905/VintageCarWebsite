@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off-Road Classics - Vintage Car Collection</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #e0e0d1; /* Earthy off-road theme */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #4b5320; /* Military Green */
+            color: white;
+            text-align: center;
+            font-family:"bold";
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #4b5320;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #4b5320;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #4b5320;
+            color: white;
+        }
+
+        /* Main Layout */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            flex: 1;
+        }
+
+        /* Car Grid */
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figure img {
+            width: 100%;
+            border-radius: 10px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        figcaption {
+            font-style: italic;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4b5320;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Off-Road Classics</h1>
+        <p>Built to conquer any terrain</p>
+    </header>
+
+    <nav>
+        <a href="mainpage.html">⬅ Back to Home</a>
+    </nav>
+
+    <main>
+        <section>
+            <a href="jeep.html">
+            <article>
+                <figure>
+                    <img src="313bf54abaaf572a063fe8c5c4627d7f.jpg" alt="Jeep Willys">
+                    <figcaption>Jeep Willys</figcaption>
+                </figure>
+                <p>"The rugged warrior that defined off-road adventure."</p>
+            </article>
+            </a>
+            <a href="land.html">
+            <article>
+                <figure>
+                    <img src="6110a2d8b5429108d191d02018b3c7ec.jpg" alt="Land Rover Series I">
+                    <figcaption>Land Rover Series I</figcaption>
+                </figure>
+                <p>"The pioneer of all-terrain capability."</p>
+            </article>
+            </a>
+            <a href="toy.html">
+            <article>
+                <figure>
+                    <img src="66a9ab5f17105d35229799c1aa89e599.jpg" alt="Toyota Land Cruiser FJ40">
+                    <figcaption>Toyota Land Cruiser FJ40</figcaption>
+                </figure>
+                <p>"The legendary off-roader built for endurance."</p>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vintage Car Collection | Designed by Abhigyan</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguar E-Type - Classic Car Collection</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #2c3e50;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #2c3e50;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .car-image img {
+            width: 100%;
+            max-width: 750px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Specifications */
+        .specs {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .specs h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .specs ul {
+            list-style: none;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .specs ul li {
+            padding: 8px 0;
+        }
+
+        /* Buy Section */
+        .buy-section {
+            margin-top: 30px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #d32f2f;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .buy-button:hover {
+            background-color: #b71c1c;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jaguar E-Type</h1>
+        <p>The Icon of 1960s Automotive Design</p>
+    </header>
+
+    <nav>
+        <a href="mainpage.html">⬅ Back to Home</a>
+    </nav>
+
+    <main>
+        <div class="car-image">
+            <img src="jagg.jpg" alt="Jaguar E-Type">
+        </div>
+
+        <section class="description">
+            <h2>About the Jaguar E-Type</h2>
+            <p>
+                The **Jaguar E-Type**, introduced in **1961**, is often hailed as one of the most  
+                beautiful cars ever built. With its **sleek aerodynamics**, **powerful inline-6 engine**,  
+                and **lightweight chassis**, it offered unmatched performance and elegance in its era.  
+                Even Enzo Ferrari once called it "the most beautiful car ever made."
+            </p>
+        </section>
+
+        <section class="specs">
+            <h2>Specifications</h2>
+            <ul>
+                <li>📅 <b>Year of Production:</b> 1961 - 1975</li>
+                <li>🚗 <b>Engine:</b> 3.8L / 4.2L Inline-6</li>
+                <li>⚡ <b>Horsepower:</b> 265 HP</li>
+                <li>🏎️ <b>Top Speed:</b> 150 mph (241 km/h)</li>
+                <li>⚙️ <b>Transmission:</b> 4-Speed Manual</li>
+                <li>🛠️ <b>Body Styles:</b> Coupe, Roadster, 2+2</li>
+            </ul>
+        </section>
+
+        <section class="buy-section">
+            <h2>Interested in Buying?</h2>
+            <p>Click the button below to visit the official seller's page and purchase this classic.</p>
+            <a href="https://www.hemmings.com/classifieds/cars-for-sale/jaguar/e-type" target="_blank" class="buy-button">Buy Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vintage Car Collection | Designed by Abhigyan</p>
+    </footer>
+
+</body>
+</html>

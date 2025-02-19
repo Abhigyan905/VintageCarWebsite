@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Cars - Vintage Car Collection</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f1e9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #c70039;  /* Sports cars theme: Red */
+            color: white;
+            text-align: center;
+            font-family:"bold";
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #c70039;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #c70039;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #c70039;
+            color: white;
+        }
+
+        /* Main Layout */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            flex: 1;
+        }
+
+        /* Car Grid */
+        section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figure img {
+            width: 100%;
+            border-radius: 10px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        figcaption {
+            font-style: italic;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #c70039;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sports Cars</h1>
+        <p>Speed, style, and pure adrenaline</p>
+    </header>
+
+    <nav>
+        <a href="mainpage.html">⬅ Back to Home</a>
+    </nav>
+
+    <main>
+        <section>
+            <a href="jag.html">
+            <article>
+                <figure>
+                    <img src="ce704ae533ddc2d9392593fac59e1b85.jpg" alt="Jaguar E-Type">
+                    <figcaption>Jaguar E-Type</figcaption>
+                </figure>
+                <p>"The most beautiful car ever made."</p>
+            </article>
+            </a>
+
+            <a href="pors.html">
+            <article>
+                <figure>
+                    <img src="892f134dd558662c1571c4082bfa2976.jpg" alt="Porsche 911">
+                    <figcaption>Porsche 911</figcaption>
+                </figure>
+                <p>"Timeless design, unrivaled performance."</p>
+            </article>
+            </a>
+
+            <a href="ferrari.html">
+            <article>
+                <figure>
+                    <img src="1963_Ferrari_250_GTO_(chassis_4153GT)_2.95.jpg" alt="Ferrari 250 GTO">
+                    <figcaption>Ferrari 250 GTO</figcaption>
+                </figure>
+                <p>"The most valuable sports car ever built."</p>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vintage Car Collection | Designed by Abhigyan</p>
+    </footer>
+
+</body>
+</html>
